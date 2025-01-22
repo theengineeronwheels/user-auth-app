@@ -1,0 +1,20 @@
+// functions/render.js
+const express = require('express');
+const ejs = require('ejs');
+const path = require('path');
+const { netlifyFunction } = require('@netlify/functions');
+
+const app = express();
+
+// Set up EJS and view directory
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, '../views'));
+
+// Example route to render an EJS page
+app.get('/', (req, res) => {
+  res.render('index', { });
+});
+
+// Wrap the Express app in Netlify function handler
+const handler = netlifyFunction(app);
+module.exports.handler = handler;

@@ -1,0 +1,9 @@
+/.env
+/secrets.db
+/dist
+/build
+/_redirects
+/node_modules
+/.env.local
+# Local Netlify folder
+.netlify

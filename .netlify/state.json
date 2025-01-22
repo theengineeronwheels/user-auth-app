@@ -1,0 +1,21 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Mauchline",
+			"country": {
+				"code": "GB",
+				"name": "United Kingdom"
+			},
+			"subdivision": {
+				"code": "SCT",
+				"name": "Scotland"
+			},
+			"timezone": "Europe/London",
+			"latitude": 55.4961,
+			"longitude": -4.4012,
+			"postalCode": "KA5"
+		},
+		"timestamp": 1737464566420
+	},
+	"siteId": "bf9dc840-1905-496c-83d5-8ae5cb95f2af"
+}

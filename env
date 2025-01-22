@@ -1,0 +1,4 @@
+SESSION_SECRET=your_session_secret
+NODE_ENV=development
+DB_PATH=./secrets.db
+PORT=3001
